@@ -1,0 +1,175 @@
+body {
+  margin: 0%;
+}
+
+.page .container {
+  width: 21cm;
+  height: 29.7cm;
+}
+
+.kopsurat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0.7rem;
+}
+.kopsurat .logo img {
+  width: 8rem;
+  margin-right: 1.4rem;
+}
+
+.info img {
+  width: 40rem;
+  height: 3.5rem;
+  margin-bottom: 0.2rem;
+}
+.info p {
+  margin: 0%;
+  font-size: 1.3rem;
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .infp p {
+    font-size: 1rem;
+
+  }
+}
+
+.line {
+  margin-bottom: 1rem;
+}
+.line .line1 {
+  border: 0.1px solid black;
+  margin-bottom: 0.5rem;
+}
+.line .line2 {
+  border: 3px solid black;
+}
+
+.Nosurat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.Nosurat p {
+  margin: 0px;
+}
+.Nosurat .title {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+.Nosurat .no {
+  font-size: 1.2rem;
+}
+
+.user-info {
+  font-size: 1.2rem;
+}
+.user-info p {
+  margin: 0px;
+  margin-bottom: 0.5rem;
+}
+.user-info .title {
+  margin-left: 5rem;
+}
+
+.user-table {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.user-table td {
+  height: 1.5rem;
+}
+.user-table tr td:nth-child(1) {
+  width: 25%;
+}
+.user-table tr td:nth-child(2) {
+  width: 4%;
+  text-align: center;
+}
+
+.hasil-info .title {
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+.hasil-info .title p {
+  margin: 0px;
+}
+.hasil-info .title p:nth-child(1) {
+  margin-left: 5rem;
+}
+.hasil-info .title p:nth-child(2) {
+  margin-left: 0px;
+}
+
+.hasil-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-bottom: 0.7rem;
+  width: 100%;
+}
+.hasil-table p {
+  text-align: center;
+}
+.hasil-table th {
+  height: 20px;
+}
+
+.hasil {
+  font-size: 1.2rem;
+  width: 100%;
+}
+.hasil tr {
+  height: 35px;
+}
+.hasil tr td:nth-child(1) {
+  width: 35%;
+}
+.hasil tr td:nth-child(2) {
+  width: 5%;
+  text-align: center;
+}
+
+.highlight {
+  margin-bottom: 1.7rem;
+}
+.highlight p {
+  font-size: 1.2rem;
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer img[alt=stample] {
+  position: absolute;
+  width: 15%;
+  right: 180px;
+  z-index: -1;
+  transform: rotate(20deg);
+}
+.footer p {
+  margin: 0px;
+}
+.footer .qr-container img {
+  width: 60%;
+}
+.footer .tgl p:nth-child(2) {
+  margin-bottom: 0.5rem;
+}
+.footer .ttd-container {
+  width: 30%;
+  display: block;
+}
+.footer .ttd-container img[alt=ttd] {
+  width: 60%;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=index.css.map */
