@@ -76,7 +76,7 @@ body {
   height: 1.7rem;
 }
 .user-table tr td:nth-child(1) {
-  width: 30%;
+  width: 40%;
 }
 .user-table tr td:nth-child(2) {
   width: 4%;
