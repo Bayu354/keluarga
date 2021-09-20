@@ -5,6 +5,7 @@ body {
 .page .container {
   width: 21cm;
   height: 29.7cm;
+  padding: 10px 20px;
 }
 
 .kopsurat {
@@ -25,7 +26,7 @@ body {
 }
 .info p {
   margin: 0%;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .line {
@@ -73,10 +74,10 @@ body {
   margin-bottom: 2rem;
 }
 .user-table td {
-  height: 1.7rem;
+  height: 1.5rem;
 }
 .user-table tr td:nth-child(1) {
-  width: 40%;
+  width: 35%;
 }
 .user-table tr td:nth-child(2) {
   width: 4%;
