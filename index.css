@@ -25,15 +25,7 @@ body {
 }
 .info p {
   margin: 0%;
-  font-size: 1.3rem;
-}
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-  .infp p {
-    font-size: 1rem;
-
-  }
+  font-size: 1rem;
 }
 
 .line {
@@ -81,7 +73,7 @@ and (max-device-width : 480px) {
   margin-bottom: 2rem;
 }
 .user-table td {
-  height: 1.5rem;
+  height: 1.7rem;
 }
 .user-table tr td:nth-child(1) {
   width: 25%;
